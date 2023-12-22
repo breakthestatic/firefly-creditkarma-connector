@@ -1,0 +1,22 @@
+{
+  "name": "firefly-creditkarma-connector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sync.js",
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync.js",
+    "parse-curl": "node scripts/parse-curl.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "csv": "^6.3.6",
+    "curlconverter": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.2",
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.1"
+  }
+}

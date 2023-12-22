@@ -1,0 +1,13 @@
+services:
+  firefly-creditkarma-connector:
+    container_name: firefly-creditkarma-connector
+    image: ghcr.io/breakthestatic/firefly-creditkarma-connector:latest
+    volumes:
+      - ./data:/app/data
+    environment:
+      - USERNAME=
+      - PASSWORD=
+      - ACCOUNTS=
+      - IMPORTER_PROTOCOL=
+      - IMPORTER_HOST=
+      - IMPORTER_SECRET=
